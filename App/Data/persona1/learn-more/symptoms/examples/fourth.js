@@ -3,7 +3,7 @@ import {Images} from '../../../../../Themes'
 const learn_more_symptoms_examples_fourth = [
     {
         _id: 1,
-        text: "If someone feel more on-edge and reactive, he/she might experience: feeling on guard, being irritable or angry, trouble sleeping, and/or startling easily.",
+        text: "Feeling tired all the time",
         user: {
             _id: 2,
             name: 'React Native',
@@ -12,7 +12,7 @@ const learn_more_symptoms_examples_fourth = [
     },
     {
         _id: 2,
-        text: "These symptoms last for a month or more and are bothersome, and/or lead to problems in social or family life, work, and school",
+        text: "Feeling hungry all the time",
         user: {
             _id: 2,
             name: 'React Native',

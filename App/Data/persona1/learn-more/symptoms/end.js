@@ -12,7 +12,7 @@ const learn_more_symptoms_end = [
     },
     {
         _id: 2,
-        text: "These symptoms last for a month or more and are bothersome, and/or lead to problems in social or family life, work, and school.",
+        text: "These are the symptoms",
         user: {
             _id: 2,
             name: 'React Native',

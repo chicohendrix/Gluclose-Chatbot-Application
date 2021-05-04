@@ -8,31 +8,31 @@ const daily_check_survey = [
         text: "CLEAR"
     },
     {
-        text: "1. Can you sleep well?",
+        text: "1. What is your energy level ?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        text: "2. Do you feel anger often?",
+        text: "2. Do you feel tired often?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        text: "3. Do you feel worried or anxious often?",
+        text: "3. Do you feel hungry ?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        text: "4. Do you feel sad or hopeless often?",
+        text: "4. Do you eat sugary food?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        text: "5. Do you think you are disconnected from reality?",
+        text: "5. Do you meats?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        text: "6. Do you think you are disconnected from people?",
+        text: "6. Do you drink enough water?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        text: "7. Do you remind trauma often?",
+        text: "7. Do you exercise?",
         options: ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
         dialogue: ["daily-check/score.js", "daily-check/score.js", "daily-check/score.js", "daily-check/score.js", "daily-check/score.js"]
     }

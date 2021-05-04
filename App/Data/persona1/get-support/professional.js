@@ -3,7 +3,7 @@ import {Images} from '../../../Themes'
 const get_support_professional = [
     {
         _id: 1,
-        text: "To learn more about treatment, visit the National Center for PTSD website.",
+        text: "To learn more about treatment, visit the Gluclose.com",
         user: {
             _id: 2,
             name: 'React Native',
@@ -21,7 +21,7 @@ const get_support_professional = [
     },
     {
         _id: 3,
-        text: "The National Center for PTSD Website: https://www.ptsd.va.gov",
+        text: "visit gluclose.com",
         user: {
             _id: 2,
             name: 'React Native',

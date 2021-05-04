@@ -3,7 +3,7 @@ import {Images} from '../../../../Themes'
 const learn_more_facts_next = [
     {
         _id: 1,
-        text: "Over 600,000 Veterans who used Veterans Affair services as recently as 2016 were diagnosed with PTSD",
+        text: "More facts display",
         user: {
             _id: 2,
             name: 'React Native',
@@ -12,7 +12,7 @@ const learn_more_facts_next = [
     },
     {
         _id: 2,
-        text: "5 out of every 100 active duty Service Members were estimated to have PTSD after deployment",
+        text: "More facts",
         user: {
             _id: 2,
             name: 'React Native',
@@ -21,7 +21,7 @@ const learn_more_facts_next = [
     },
     {
         _id: 3,
-        text: "For those in infantry units that experienced combat, 13 out of every 100 Service Members had PTSD",
+        text: "More Facts",
         user: {
             _id: 2,
             name: 'React Native',
@@ -39,7 +39,7 @@ const learn_more_facts_next = [
     },
     {
         _id: 5,
-        text: "Don’t be afraid to seek out help and support to help you deal with any stress you’re experiencing.",
+        text: "More Facts",
         user: {
             _id: 2,
             name: 'React Native',
@@ -48,7 +48,7 @@ const learn_more_facts_next = [
     },
     {
         _id: 6,
-        text: "Do you want to know about PTSD more?",
+        text: "More facts",
         user: {
             _id: 2,
             name: 'React Native',
@@ -69,8 +69,7 @@ const learn_more_facts_next = [
 
             ],
         },
-        // options: ["Yes", "No"],
-        // dialogue: ["learn-more/choice.json", "get-support/other-tools.json"]
+
     }
 ]
 

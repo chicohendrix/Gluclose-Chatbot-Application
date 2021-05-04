@@ -12,7 +12,7 @@ const learn_more_init = [
     },
     {
         _id: 2,
-        text: "Let's learn about PTSD together",
+        text: "Let's learn about Diabetes together",
         user: {
             _id: 2,
             name: 'React Native',
@@ -21,7 +21,7 @@ const learn_more_init = [
     },
     {
         _id: 3,
-        text: "Post traumatic Stress Disorder (PTSD) is caused by witnessing, experiencing, or learning about someone close to you who experienced traumatic events.",
+        text: "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. ",
         user: {
             _id: 2,
             name: 'React Native',
@@ -30,7 +30,7 @@ const learn_more_init = [
     },
     {
         _id: 4,
-        text: "It might be actual or threatened death, serious injury, or sexual violence.",
+        text: "Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy.",
         user: {
             _id: 2,
             name: 'React Native',
@@ -54,7 +54,7 @@ const learn_more_init = [
                     value: "learn-more/symptoms/init.js",
                 },
                 {
-                    title: 'PTSD facts',
+                    title: 'Diabetes facts',
                     value: "learn-more/facts/init.js",
                 },
             ],

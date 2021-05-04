@@ -3,7 +3,7 @@ import {Images} from '../../../Themes'
 const learn_more_repeat = [
     {
         _id: 1,
-        text: "Do you want to know about PTSD more?",
+        text: "Do you want to know about Diabetes more?",
         user: {
             _id: 2,
             name: 'React Native',

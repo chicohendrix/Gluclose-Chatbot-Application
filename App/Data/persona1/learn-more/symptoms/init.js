@@ -12,7 +12,7 @@ const learn_more_symptoms_init = [
     },
     {
         _id: 2,
-        text: "PTSD includes 4 types of symptoms",
+        text: "3 types of diabetes and there are common symptoms",
         user: {
             _id: 2,
             name: 'React Native',

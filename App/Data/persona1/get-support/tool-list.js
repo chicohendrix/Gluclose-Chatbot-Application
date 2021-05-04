@@ -35,7 +35,7 @@ const get_support_tool_list = [
                     value: "get-support/immediate.js",
                 },
                 {
-                    title: 'Learn About PTSD',
+                    title: 'Learn About Diabetes',
                     value: "learn-more/init.js",
                 },
                 {

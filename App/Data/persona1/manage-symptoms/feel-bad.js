@@ -1,6 +1,6 @@
 [
     {
-        text: "I can relieve your symptom in different ways,"
+        text: "I can relieve your symptoms in different ways,"
     },
     {
         text: "Do you want to try others?",

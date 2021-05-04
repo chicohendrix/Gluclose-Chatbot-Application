@@ -3,7 +3,7 @@ import {Images} from '../../../../../Themes'
 const learn_more_symptoms_examples_first = [
     {
         _id: 1,
-        text: "If someone is under re-experiencing or reliving the trauma, he/she might experience: disturbing memories, nightmares, feeling or acting like the trauma is happening again, and/or becoming very upset when reminded of the trauma.",
+        text: "Low blood pressure ",
         user: {
             _id: 2,
             name: 'React Native',

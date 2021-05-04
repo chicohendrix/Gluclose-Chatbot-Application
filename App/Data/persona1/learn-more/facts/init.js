@@ -13,7 +13,7 @@ const learn_more_facts_init = [
     },
     {
         _id: 2,
-        text: "Did you know that PTSD is extremely common?",
+        text: "Diabetes is one of the most popular diseases across the world",
         user: {
             _id: 2,
             name: 'React Native',

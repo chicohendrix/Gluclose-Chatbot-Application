@@ -3,7 +3,7 @@ import {Images} from '../../../../../Themes'
 const learn_more_symptoms_examples_third = [
     {
         _id: 1,
-        text: "If someone feel negative thoughts and moods, he/she might have: feeling detached or isolating from others, negative beliefs, self-blame for the trauma, and/or trouble feeling positive emotions like happiness and love.",
+        text: "Gaining Weight",
         user: {
             _id: 2,
             name: 'React Native',

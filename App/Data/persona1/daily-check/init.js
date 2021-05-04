@@ -31,7 +31,7 @@ const daily_check_init = [
     },
     {
         _id: 4,
-        text: "I would like to ask you about your current level of distress. This will help me to adapt my recommendations.",
+        text: "Can I ask how you are feeling currently, what is your energy levels?",
         user: {
             _id: 2,
             name: 'React Native',
