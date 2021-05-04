@@ -1,3 +1,6 @@
+//about us
+//Ritvik Kumar K
+
 import React, { useState, useEffect } from 'react';
 import { Button, StyleSheet, Text, View, TouchableOpacity, Dimensions, Platform } from 'react-native';
 import { human } from 'react-native-typography'
@@ -17,7 +20,6 @@ export default function AssistanceLinksScreen({ navigation }) {
                 <View style={styles.signOut}>
                     <Button title='Profile' onPress={() => signout()} ></Button>
                 </View>
-                {/* <Button title="abc" onPress={() => navigation.toggleDrawer()}></Button> */}
             </View>
             <View style={styles.linkContainer}>
                 <View style={styles.linkRow}>

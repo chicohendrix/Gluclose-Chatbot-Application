@@ -1,3 +1,7 @@
+//Ritvik Kumar K
+//login page
+
+
 import React, { useState } from 'react';
 import { StyleSheet, Text, SafeAreaView, View, TextInput, Button, Dimensions, Alert } from 'react-native';
 import { human, material } from 'react-native-typography';
@@ -13,10 +17,7 @@ export default function LoginScreen(props) {
     const [errorMessageLogin, setErrorMessageLogin] = useState('');
     const [loginPage, setLoginPage] = useState(true);
 
-    //Login Implementation pulled from in-class example and modified to meet our needs: https://snack.expo.io/@git/github.com/hcdd-340-spring-2021/firebase-authentication@work-files 
 
-    // Check out this link to learn more about firebase.auth()
-    // https://firebase.google.com/docs/reference/node/firebase.auth.Auth
     let signUp = async () => {
         try {
             const response = await firebase.auth().createUserWithEmailAndPassword(signUpEmail, signUpPassword);
@@ -24,8 +25,6 @@ export default function LoginScreen(props) {
                 const user = firebase.auth().currentUser;
                 var userDocRef = firestore.doc('users/' + user.uid);
 
-                // Since my document doesn't exist, userDocRef.set will
-                // create the document for me
                 userDocRef.set({
                     name: signUpName
                 });
@@ -36,12 +35,9 @@ export default function LoginScreen(props) {
         }
     }
 
-    // Check out this link to learn more about firebase.auth()
-    // https://firebase.google.com/docs/reference/node/firebase.auth.Auth
     let login = async () => {
         try {
-            // Note that we don't have to tell the app that the user has logged in.
-            // firebase.auth().onAuthStateChanged() in App.js communicates this for us!
+!
             await firebase.auth().signInWithEmailAndPassword(loginEmail, loginPassword)
             firebase.auth().onAuthStateChanged(function (user) {
                 if (user) {
@@ -53,7 +49,7 @@ export default function LoginScreen(props) {
             })
             console.log("Login pressed")
         } catch (err) {
-            //Alert.alert('Error', err, [{text: 'OK', style: 'cancel', onPress: () => console.log('')}]);
+
             console.log(err);
         }
     }

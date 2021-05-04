@@ -52,7 +52,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 import { Images } from '../Themes';
 import take_assessment_high from '../Data/persona1/take-assessment/high';
-import LoginScreen from './LoginScreen';
+import LoginScreen from './login';
 
 export default function ChatScreen({ navigation }) {
   var assessmentReplies = []
@@ -62,18 +62,7 @@ export default function ChatScreen({ navigation }) {
 
   useEffect(() => {
     setMessages(welcome.slice(1,).reverse()
-      // [
-      //   {
-      //     _id: 1,
-      //     text: 'Hello developer',
-      //     createdAt: new Date(),
-      //     user: {
-      //       _id: 2,
-      //       name: 'React Native',
-      //       avatar: Images.robot,
-      //     },
-      //   },
-      // ]
+
     );
     assessmentReplies = []
   }, [])
@@ -88,7 +77,7 @@ export default function ChatScreen({ navigation }) {
 
   function signout() {
     firebase.auth().signOut();
-    //props.updateStatus(true);
+
     setLogoutStatus(true)
   }
 

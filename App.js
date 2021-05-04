@@ -1,3 +1,6 @@
+//Ritvik Kumar K 
+//APp.js file 
+
 import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Dimensions } from 'react-native';
@@ -5,7 +8,7 @@ import firebase from 'firebase';
 import "firebase/auth"
 
 import AppNavigation from './App/Navigation/AppNavigation'
-import LoginScreen from './App/Screens/LoginScreen';
+import LoginScreen from './App/Screens/login';
 
 export default function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -37,7 +40,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    //flex: 1,
     backgroundColor: '#fff',
     flexDirection: 'column',
     alignItems: 'stretch',
@@ -46,7 +48,6 @@ const styles = StyleSheet.create({
     ...Platform.select({
       ios: {
         height: Dimensions.get("screen").height - 80,
-        //marginTop: 70,
       },
       android: {
         height: Dimensions.get("window").height,

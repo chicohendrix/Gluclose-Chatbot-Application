@@ -1,3 +1,7 @@
+//Navigation
+//Ritvik Kumar K
+
+
 import React from 'react';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
@@ -7,10 +11,10 @@ import { createDrawerNavigator } from '@react-navigation/drawer'
 
 import { Ionicons } from '@expo/vector-icons';
 
-import ChatScreen from '../Screens/ChatScreen'
-import SettingsScreen from '../Screens/SettingsScreen'
-import AssistanceLinksScreen from '../Screens/AssistanceLinksScreen'
-import LegalDisclosureScreen from '../Screens/LegalDisclosureScreen'
+import ChatScreen from '../Screens/chat'
+import SettingsScreen from '../Screens/settings'
+import AssistanceLinksScreen from '../Screens/aboutUs'
+import LegalDisclosureScreen from '../Screens/questions'
 import { Button, TouchableOpacity, View, Text } from 'react-native';
 
 const Tab = createBottomTabNavigator();
