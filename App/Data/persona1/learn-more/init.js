@@ -59,8 +59,7 @@ const learn_more_init = [
                 },
             ],
         },
-        // options: ["4 types of symptoms", "PTSD facts"],
-        // dialogue: ["learn-more/symptoms/init.js", "learn-more/facts/init.js"]
+
     }
 ]
 

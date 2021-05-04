@@ -13,7 +13,7 @@ const learn_more_symptoms_intro_first = [
     },
     {
         _id: 2,
-        text: "The first symptom of PTSD is: re-experiencing or reliving the trauma",
+        text: "The first symptom of Diabetes is: tiredness",
         user: {
             _id: 2,
             name: 'React Native',

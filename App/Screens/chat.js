@@ -154,8 +154,8 @@ export default function ChatScreen({ navigation }) {
       (get_support_immediate[0].text === 'I would like to provide contacts that you could get some immediate support.') ? setMessages(get_support_immediate.reverse()) : setMessages(get_support_immediate)
     }
     if (index[0].value == "get-support/professional.js") {
-      (get_support_professional[0].text === 'To learn more about treatment, visit the National Center for PTSD website.') ? setMessages(get_support_professional.reverse()) : setMessages(get_support_professional)
-      setLink('https://www.ptsd.va.gov')
+      (get_support_professional[0].text === 'To learn more about treatment, visit the National Center for Diabetes website.') ? setMessages(get_support_professional.reverse()) : setMessages(get_support_professional)
+      setLink('')
     }
     if (index[0].value == "get-support/other-tools.js") {
       (get_support_other_tools[0].text === 'I have some other tools that might help you.') ? setMessages(get_support_other_tools.reverse()) : setMessages(get_support_other_tools)
@@ -200,7 +200,7 @@ export default function ChatScreen({ navigation }) {
       (learn_more_choice[0].text === 'Which of the following topics do you want to know more about?') ? setMessages(learn_more_choice.reverse()) : setMessages(learn_more_choice)
     }
     if (index[0].value == "learn-more/repeat.js") {
-      (learn_more_repeat[0].text === 'Do you want to know about PTSD more?') ? setMessages(learn_more_repeat.reverse()) : setMessages(learn_more_repeat)
+      (learn_more_repeat[0].text === 'Do you want to know about Diabetes more?') ? setMessages(learn_more_repeat.reverse()) : setMessages(learn_more_repeat)
     }
     if (index[0].value == "learn-more/symptoms/review.js") {
       (learn_more_symptoms_review[0].text === 'Ok. Which symptom would you like to review?') ? setMessages(learn_more_symptoms_review.reverse()) : setMessages(learn_more_symptoms_review)
@@ -209,7 +209,7 @@ export default function ChatScreen({ navigation }) {
       (learn_more_facts_init[0].text === 'CLEAR') ? setMessages(learn_more_facts_init.slice(1,).reverse()) : setMessages(learn_more_facts_init.slice(0,-1))
     }
     if (index[0].value == "learn-more/facts/next.js") {
-      (learn_more_facts_next[0].text === 'Over 600,000 Veterans who used Veterans Affair services as recently as 2016 were diagnosed with PTSD') ? setMessages(learn_more_facts_next.reverse()) : setMessages(learn_more_facts_next)
+      (learn_more_facts_next[0].text === '58 Percent diagnosed with diabetes') ? setMessages(learn_more_facts_next.reverse()) : setMessages(learn_more_facts_next)
     }
   }
 

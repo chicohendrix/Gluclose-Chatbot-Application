@@ -12,7 +12,7 @@ const learn_more_symptoms_intro_second = [
     },
     {
         _id: 2,
-        text: "The second symptom of PTSD is persistent avoidance",
+        text: "The second symptom of Diabetes is feeling lethargic",
         user: {
             _id: 2,
             name: 'React Native',

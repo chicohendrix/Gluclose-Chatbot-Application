@@ -39,7 +39,7 @@ const take_assessment_low = [
     },
     {
         _id: 5,
-        text: "In this app, you can learn about PTSD. Do you want to learn more about PTSD?",
+        text: "In this app, you can learn about Diabetes. Do you want to learn more about Diabetes?",
         quickReplies: {
             type: 'radio', // or 'checkbox',
             keepIt: true,

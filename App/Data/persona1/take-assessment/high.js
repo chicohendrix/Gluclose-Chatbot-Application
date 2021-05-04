@@ -21,7 +21,7 @@ const take_assessment_high = [
     },
     {
         _id: 3,
-        text: "Your score puts you in the high range, which means that you have some PTSD symptoms",
+        text: "Your score puts you in the high range, which means that you have some Diabetes symptoms",
         user: {
             _id: 2,
             name: 'React Native',

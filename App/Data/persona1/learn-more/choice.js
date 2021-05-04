@@ -18,15 +18,14 @@ const learn_more_choice = [
                     value: "learn-more/symptoms/init.js",
                 },
                 {
-                    title: 'PTSD facts',
+                    title: 'Diabetes facts',
                     value: "learn-more/facts/init.js",
                 },
 
             ],
         },
 
-        // options: ["4 types of symptoms", "PTSD facts"],
-        // dialogue: ["learn-more/symptoms/init.js", "learn-more/facts/init.js"]
+
     }
 ]
 

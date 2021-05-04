@@ -36,8 +36,7 @@ const activities = [
             name: 'React Native',
             avatar: Images.robot,
         },
-        // options: ["Manage Symptoms", "Take Assessment", "Get Support", " Learn about PTSD", "Track Progress"],
-        // dialogue: ["manage-symptoms/init.js", "take-assessment/start.js", "get-support/immediate.js", "learn-more/init.js", "track-progress/init.js"]
+
         quickReplies: {
             type: 'radio', // or 'checkbox',
             keepIt: true,
@@ -55,7 +54,7 @@ const activities = [
                     value: "get-support/immediate.js",
                 },
                 {
-                    title: 'Learn About PTSD',
+                    title: 'Learn About Diabetes',
                     value: "learn-more/init.js",
                 },
                 {

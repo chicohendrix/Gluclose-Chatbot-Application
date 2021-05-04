@@ -6,7 +6,7 @@
         text: "Here is your previous assessment history."
     },
     {
-        text: "![progress graph](https://raw.githubusercontent.com/HeeJeong-Han/PTSDialogue/master/tracking.png)"
+        text: "test"
     },
     {
         text: "I have some tools that might help you control your stress. Would you like to try?",
